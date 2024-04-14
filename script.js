@@ -23,12 +23,12 @@ const showMenu = (toggleId, navId) => {
     })
   }
 }
-showMenu('nav-toggle', 'nav-menu')
+showMenu('nav-toggle', 'nav--menu')
 /*================Close Navigation Bar on Link Click===============*/
 
 const navLink = document.querySelectorAll('.nav__link')
 navLink.forEach(link => link.addEventListener('click', () => {
-  const nav = document.querySelector('#nav-menu')
+  const nav = document.querySelector('#nav--menu')
   nav.classList.remove('show')
 }))
 

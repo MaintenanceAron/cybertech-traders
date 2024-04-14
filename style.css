@@ -552,12 +552,13 @@ header {
   .nav__menu {
     position: fixed;
     right: -80%;
-    width: 80%;
+    width: 20%;
     height: 100%;
     z-index: 1;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: var(--color-white);
+    background-color: var(--color-primary);
+    /* background-color: var(--color-white); */
     top: 5rem;
     padding: 20px;
     transition: .5s;
@@ -648,12 +649,13 @@ header {
   .nav__menu {
     position: fixed;
     right: -80%;
-    width: 80%;
+    width: 20%;
     height: 100%;
     z-index: 1;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: var(--color-white);
+    background-color: var(--color-primary);
+    /* background-color: var(--color-white); */
     top: 5rem;
     padding: 20px;
     transition: .5s;
@@ -744,12 +746,13 @@ header {
   .nav__menu {
     position: fixed;
     right: -80%;
-    width: 80%;
+    width: 20%;
     height: 100%;
     z-index: 1;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: var(--color-white);
+    background-color: var(--color-primary);
+    /* background-color: var(--color-white); */
     top: 5rem;
     padding: 20px;
     transition: .5s;
