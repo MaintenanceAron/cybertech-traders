@@ -552,7 +552,7 @@ header {
   .nav__menu {
     position: fixed;
     right: -80%;
-    width: 20%;
+    width: 40%;
     height: 100%;
     z-index: 1;
     flex-direction: column;
@@ -649,7 +649,7 @@ header {
   .nav__menu {
     position: fixed;
     right: -80%;
-    width: 20%;
+    width: 40%;
     height: 100%;
     z-index: 1;
     flex-direction: column;
@@ -746,7 +746,7 @@ header {
   .nav__menu {
     position: fixed;
     right: -80%;
-    width: 20%;
+    width: 40%;
     height: 100%;
     z-index: 1;
     flex-direction: column;
