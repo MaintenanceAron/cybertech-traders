@@ -53,7 +53,33 @@
       </div>
 
       <div class="home__image">
-        <img src="assets/img/premium_photo.avif" alt="" srcset="">
+        <!-- <img src="assets/img/premium_photo.avif" alt="" srcset=""> -->
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container" style="height:100%;width:100%">
+          <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+          <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+              target="_blank"><span class="blue-text"></span></a></div>
+          <script type="text/javascript"
+            src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+              {
+                "autosize"; true,
+                  "symbol"; "NASDAQ:AAPL",
+                    "interval"; "D",
+                      "timezone"; "America/New_York",
+                        "theme"; "light",
+                          "style"; "1",
+                            "locale"; "en",
+                              "enable_publishing"; false,
+                                "allow_symbol_change"; true,
+                                  "save_image"; false,
+                                    "calendar"; false,
+                                      "hide_volume"; true,
+                                        "support_host"; "https://www.tradingview.com"
+              }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+
       </div>
     </div>
 
@@ -215,7 +241,7 @@
       <h1 class="contact__title">
         Let us Serve You
       </h1>
-      <form action="#" class="contact__form">
+      <form action="#" method="POST" class="contact__form">
         <input type="text" class="contact__name" placeholder="Full Name" required>
         <input type="email" class="contact__email" placeholder="Email" required>
         <textarea name="message" id="contact-message" rows="5" class="contact__message"
@@ -226,6 +252,25 @@
       </form>
     </div>
   </section>
+  <!-- Our Funding Methods -->
+  <div class="mini__footer mini-footer">
+    <h2 class="mini--footer">
+      Funding Methods
+    </h2>
+    <div class="card--footer">
+      <div class="airtel img">
+        <img src="/assets/img/airtel-money.svg" alt="">
+        <img src="/assets/img/equitel.svg" alt="">
+        <img src="/assets/img/mpesa.svg" alt="">
+        <img src="/assets/img/mastercard.svg" alt="">
+        <img src="/assets/img/visa.svg" alt="">
+        <img src="/assets/img/neteller.png" alt="">
+        <img src="/assets/img/skrill.gif" alt="">
+
+      </div>
+
+    </div>
+  </div>
 
   <!-- ====================== Footer ================== -->
   <footer class="footer">
@@ -271,7 +316,6 @@
         </div>
       </div>
     </div>
-
     <div class="footer__copyright">
       <p>&copy; 2024. All Rights Reserved.</p>
     </div>
