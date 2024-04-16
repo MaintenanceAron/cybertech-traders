@@ -62,6 +62,11 @@ martScroll.reveal('.home__data-desc', {})
 martScroll.reveal('.home__btn', {})
 martScroll.reveal('.home__image', {})
 
+//slider
+martScroll.reveal('.slider__container')
+martScroll.reveal('.slider__title')
+martScroll.reveal('.slider__desc')
+
 //scroll About
 martScroll.reveal('.about__img', {})
 martScroll.reveal('.about__data', {})
@@ -87,3 +92,6 @@ martScroll.reveal('.contact__form', {})
 //footer
 
 martScroll.reveal('.footer__container', {})
+
+// funding methods
+martScroll.reveal('.mini__footer')
