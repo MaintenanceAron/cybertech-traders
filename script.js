@@ -22,6 +22,12 @@ const showMenu = (toggleId, navId) => {
       nav.classList.toggle('show')
     })
   }
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+}
+function myFunction(x) {
+  x.classList.toggle("change");
 }
 showMenu('nav-toggle', 'nav--menu')
 /*================Close Navigation Bar on Link Click===============*/
